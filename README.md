@@ -28,6 +28,7 @@ root/
 https://github.com/Binoofactory/amsansem-lnk-build/releases/tag/test
 
 |created at|version|description|
+|-----|-----|-----|
 |2025.12.23|Test.25.12.23|pre-release for Tester|
 
 - recently prod
