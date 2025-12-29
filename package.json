@@ -109,6 +109,11 @@
     "mac": {
       "target": "dmg",
       "icon": "assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": true,
+      "allowToChangeInstallationDirectory": false,
+      "include": "installer.nsh" 
     }
   },
   "homepage": "https://github.com/Binoofactory/amsansem-lnk-build#readme",

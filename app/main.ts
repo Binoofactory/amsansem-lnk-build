@@ -4,9 +4,9 @@ import path from 'path';
 import { execSync } from 'child_process';
 
 const targetWebSiteUrl = 'https://amsansem.com/';
-const applicationDisplayName = '학습 영상 바로가기';
+const applicationDisplayName = '스마트 주산N암산';
 const iconFileName = '/assets/icon'; // Windows: .ico / macOS: .icns
-console.log(1);
+// console.log(1);
 
 function isGoogleChromeInstalledOnWindows() {
   try {
@@ -121,7 +121,7 @@ app.whenReady().then(() => {
 
     createWindowsDesktopShortcut();
   }
-
+/*
   if (isMacPlatform) {
     if (!isGoogleChromeInstalledOnMac()) {
       promptChromeInstallation();
@@ -137,6 +137,7 @@ app.whenReady().then(() => {
     title: '설치 완료',
     message: '바탕화면에 바로가기가 생성되었습니다.',
   });
+  */
 
   app.quit();
 });
